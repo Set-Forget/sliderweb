@@ -29,3 +29,25 @@ body {
 p, h2 {
   text-wrap: balance;
 }
+
+.title-parent {
+  perspective: 500px;
+  perspective-origin: bottom;
+}
+
+@keyframes heroImgAnimation {
+  0% {
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
+
+.hero-img {
+  animation: heroImgAnimation 2s ease-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
