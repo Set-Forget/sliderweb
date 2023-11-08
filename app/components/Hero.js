@@ -81,7 +81,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.65, ease: "easeOut" }}
             className="text-lg leading-8 text-gray-300 mt-6"
           >
-            Templating just became easy. And it's even easier to get started.
+            Templating just became easy. And it&apos;s even easier to get started.
             Download now for free.
           </motion.p>
           <motion.button
