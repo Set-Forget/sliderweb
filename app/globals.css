@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+p, h2 {
+  text-wrap: balance;
+}
