@@ -20,7 +20,7 @@ export const Demo = () => {
 
             <div className="mx-auto px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
                 <div>
-                    <Image src={demoImg} width={0} />
+                    <Image src={demoImg} width={0} alt='sliderweb usage demo'/>
                 </div>
                 <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6">Import your templates wherever and whenever</h2>

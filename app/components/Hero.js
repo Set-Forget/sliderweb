@@ -38,7 +38,7 @@ export const Hero = () => {
                     <button className="mt-6 flex justify-center items-center px-2 py-2.5 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"><FontAwesomeIcon icon={faChrome} className="w-4 h-4 mr-2" /> Get now from the Google Marketplace</button>
                 </div>
                 <div className="">
-                    <Image src={heroImg} width={0} className="scale-125 mt-44 px-8" />
+                    <Image src={heroImg} width={0} className="scale-125 mt-44 px-8" alt="sliderweb homepage decorative image"/>
                 </div>
             </div>
         </div>
