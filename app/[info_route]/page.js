@@ -12,7 +12,7 @@ export default function InfoPage({params}) {
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6">
                     Privacy Policy
                 </h1>
-                <p>caca</p>
+                <p></p>
             </>
 
         )
@@ -22,7 +22,7 @@ export default function InfoPage({params}) {
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6">
                     Terms & Conditions
                 </h1>
-                <p>caca</p>
+                <p></p>
             </>
 
         )
@@ -32,7 +32,7 @@ export default function InfoPage({params}) {
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6">
                     Google Disclosure
                 </h1>
-                <p>caca</p>
+                <p></p>
             </>
 
         )
