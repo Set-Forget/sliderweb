@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link"
 
 export const Footer = () => {
@@ -16,6 +17,8 @@ const infoRoutes = {
                     <li><Link href={infoRoutes.privacyPolicy}>Privacy Policy</Link></li>
                     <li><Link href={infoRoutes.termsConditions}>Terms & Conditions</Link></li>
                     <li><Link href={infoRoutes.googleDisclosure}>Google Disclosure</Link></li>
+                    <li><Link href={'/'}>Home</Link></li>
+                    <li className="cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Scroll to top</li>
                 </ul>
             </nav>
         </footer>
