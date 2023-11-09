@@ -51,3 +51,28 @@ p, h2 {
   animation-delay: 1.5s;
   opacity: 0;
 }
+
+.custom-min-height {
+  min-height: calc(100vh - 12rem);
+}
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(17, 24, 39);
+}
+
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #b3b3b3; 
+}

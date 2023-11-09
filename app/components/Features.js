@@ -59,7 +59,7 @@ export const Features = () => {
               key={item}
               custom={index}
               variants={listItemVariants}
-              className="flex items-center"
+              className="flex items-center text-lg leading-8 text-gray-300"
               initial="hidden"
               animate={controls}
             >
