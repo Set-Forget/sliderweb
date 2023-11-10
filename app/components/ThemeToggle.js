@@ -6,7 +6,7 @@ import { Moon } from "@/public/Moon";
 import { Sun } from "@/public/Sun";
 
 const ThemeToggle = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme('light');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
