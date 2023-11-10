@@ -12,7 +12,7 @@
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 245, 212, 122;
   }
 }
 
@@ -54,25 +54,4 @@ p, h2 {
 
 .custom-min-height {
   min-height: calc(100vh - 12rem);
-}
-
-
-::-webkit-scrollbar {
-  width: 12px; 
-}
-
-
-::-webkit-scrollbar-thumb {
-  background: white; 
-  border-radius: 10px; 
-}
-
-
-::-webkit-scrollbar-track {
-  background: rgb(17, 24, 39);
-}
-
-
-::-webkit-scrollbar-thumb:active {
-  background-color: #b3b3b3; 
 }

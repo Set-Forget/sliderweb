@@ -41,12 +41,12 @@ export const Features = () => {
   }, [controls, isInView]);
 
   return (
-    <div className="relative isolate bg-gray-900 flex flex-col justify-center items-center">
+    <div className="relative isolate dark:bg-gray-900 flex flex-col justify-center items-center">
       <section
         className="mx-auto px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-20 flex flex-col"
         ref={ref}
       >
-        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mt-6">
           Why People Choose Us
         </h1>
         <motion.ul
@@ -59,7 +59,7 @@ export const Features = () => {
               key={item}
               custom={index}
               variants={listItemVariants}
-              className="flex items-center text-lg leading-8 text-gray-300"
+              className="flex items-center text-lg leading-8 dark:text-gray-300"
               initial="hidden"
               animate={controls}
             >

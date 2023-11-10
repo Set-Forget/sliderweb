@@ -28,7 +28,7 @@ const perspective = {
 
 export const Hero = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900">
+    <div className="relative isolate overflow-hidden dark:bg-gray-900">
       <div
         className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
         aria-hidden="true"
@@ -50,7 +50,7 @@ export const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.1, delay: 1.2, ease: "easeOut" }}
-                className="rounded-full bg-orange-500/10 px-3 py-1 text-xs font-semibold leading-6 text-orange-400 ring-1 ring-inset ring-orange-500/20"
+                className="rounded-full bg-orange-500/10 px-3 py-1 text-xs font-semibold leading-6 text-[#f4b400] ring-1 ring-inset ring-[#f4b400]/20"
               >
                 What&apos;s new
               </motion.span>
@@ -58,7 +58,7 @@ export const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.1, delay: 1.25, ease: "easeOut" }}
-                className="inline-flex items-center space-x-2 text-xs font-medium leading-6 text-gray-300"
+                className="inline-flex items-center space-x-2 text-xs font-medium leading-6 dark:text-gray-300"
               >
                 <span>v1.0 Now available</span>
               </motion.span>
@@ -70,7 +70,7 @@ export const Hero = () => {
               variants={perspective}
               initial="initial"
               animate="enter"
-              className="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6"
+              className="text-4xl font-bold tracking-tight sm:text-6xl mt-6"
             >
               SliderWeb&apos;s Template Creator
             </motion.h1>
@@ -79,7 +79,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.65, ease: "easeOut" }}
-            className="text-lg leading-8 text-gray-300 mt-6"
+            className="text-lg leading-8 dark:text-gray-300 mt-6"
           >
             Templating just became easy. And it&apos;s even easier to get started.
             Download now for free.
@@ -88,7 +88,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
-            className="mt-6 flex justify-center items-center px-2 py-2.5 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
+            className="mt-6 flex justify-center items-center px-2 py-2.5 dark:bg-gray-800 bg-[#f4b400]/30 rounded-lg dark:hover:bg-gray-700 transition-colors"
           >
             <FontAwesomeIcon icon={faChrome} className="w-4 h-4 mr-2" /> Get now
             from the Google Marketplace
