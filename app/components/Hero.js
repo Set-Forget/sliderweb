@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import heroImg from "@/public/SliderWebHero02.png";
+import heroImg from "@/public/SliderWebHero02-8.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChrome } from "@fortawesome/free-brands-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
