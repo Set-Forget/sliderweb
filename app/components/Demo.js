@@ -9,7 +9,7 @@ export const Demo = () => {
                     <Image className='rounded-lg shadow-lg' src={sliderWebGif} width={0} alt='sliderweb usage demo' />
                 </div>
                 <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-                    <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mt-6">Import your templates wherever and whenever</h2>
+                    <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mt-6 lg:mt-0">Import your templates wherever and whenever</h2>
                     <p className="text-lg leading-8 dark:text-gray-300 mt-6">Efficiently create and import custom slide templates into any presentation, streamlining
                         your slide creation process.
                     </p>
