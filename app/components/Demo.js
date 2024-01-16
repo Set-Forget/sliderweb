@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Demo = () => {
     return (
         <div className="relative isolate dark:bg-gray-900 flex">
-            <div className="mx-auto items-center gap-14 px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 max-w-[1366px]">
+            <div className="mx-auto items-center gap-20 px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 max-w-[1366px]">
                 <div>
                     <Image className='rounded-lg shadow-lg' src={sliderWebGif} width={0} alt='sliderweb usage demo' />
                 </div>
