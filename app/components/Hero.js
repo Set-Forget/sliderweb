@@ -1,9 +1,9 @@
 "use client";
-import Image from "next/image";
-import heroImg from "@/public/SliderWebHero02-8.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import heroImg from "@/public/hero-img.svg";
 import { faChrome } from "@fortawesome/free-brands-svg-icons";
-import { AnimatePresence, motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const perspective = {
   initial: {
@@ -34,7 +34,7 @@ export const Hero = () => {
         aria-hidden="true"
       >
         <div
-          className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#ffb780] to-[#e5d046] opacity-20"
+          className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#FBE143] to-[#FBE143] opacity-20"
           style={{
             clipPath:
               "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
@@ -42,18 +42,10 @@ export const Hero = () => {
         />
       </div>
 
-      <div className="mx-auto px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40 max-w-[1366px]">
+      <div className="mx-auto gap-20 px-6 pb-24 pt-10 items-center sm:pb-32 lg:flex lg:px-8 lg:py-40 max-w-[1366px]">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-          <div className="mt-24 sm:mt-32 lg:mt-16">
+          <div className="mt-24 sm:mt-0">
             <a href="#" className="inline-flex space-x-6">
-              <motion.span
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.1, delay: 1.2, ease: "easeOut" }}
-                className="rounded-full bg-orange-500/10 px-3 py-1 text-xs font-semibold leading-6 text-[#f4b400] ring-1 ring-inset ring-[#f4b400]/20"
-              >
-                What&apos;s new
-              </motion.span>
               <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -72,7 +64,7 @@ export const Hero = () => {
               animate="enter"
               className="text-4xl font-bold tracking-tight sm:text-6xl mt-6"
             >
-              SliderWeb&apos;s Template Creator
+              Never Lose a Slide Again
             </motion.h1>
           </div>
           <motion.p
@@ -81,8 +73,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.65, ease: "easeOut" }}
             className="text-lg leading-8 dark:text-gray-300 mt-6"
           >
-            Templating just became easy. And it&apos;s even easier to get started.
-            Download now for free.
+            Tired of hunting through old decks for slides to reuse? SliderWeb lets you save and retrieve the slides you need, when you need them.
           </motion.p>
           <motion.button
             initial={{ opacity: 0, y: 20 }}
@@ -90,15 +81,13 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
             className="mt-6 flex justify-center items-center px-2 py-2.5 dark:bg-gray-800 bg-[#f4b400]/30 rounded-lg dark:hover:bg-gray-700 transition-colors"
           >
-            <FontAwesomeIcon icon={faChrome} className="w-4 h-4 mr-2" /> Get now
-            from the Google Marketplace
+            <FontAwesomeIcon icon={faChrome} className="w-4 h-4 mr-2" /> Free on the Google Marketplace
           </motion.button>
         </div>
-        <div className="">
+        <div>
           <Image
             src={heroImg}
-            width={0}
-            className="hero-img scale-125 mt-44 px-8"
+            className="hero-img sm:min-w-[600px] lg:scale-125 mt-24 px-8 w-full"
             alt="sliderweb homepage decorative image"
           />
         </div>

@@ -7,8 +7,8 @@ export const Navbar = () => {
     return (
         <div className="fixed top-0 left-0 w-screen p-6 z-50">
             <nav className="flex flex-row justify-between">
-                <Link href='/'><Image src={logo} width={48}/></Link>
-                <ThemeToggle/>
+                <Link href='/'><Image src={logo} width={65} /></Link>
+                <ThemeToggle />
             </nav>
         </div>
     )
