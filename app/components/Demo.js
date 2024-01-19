@@ -4,19 +4,19 @@ const features = [
     {
         name: 'Instant Setup',
         description:
-            'Install SliderWeb’s free app on the Google Marketplace - it only takes 10 seconds',
+            'Install SliderWeb free app on the Google Marketplace - it only takes 10 seconds',
         icon: ArrowDownIcon,
     },
     {
         name: 'Seamless Slide Saving',
         description:
-            'Save the specific slides you’ll want to reuse, directly from within your Google Slides presentation',
+            'Save the specific slides you will want to reuse, directly from within your Google Slides presentation',
         icon: BookmarkIcon,
     },
     {
         name: 'Effortless Deck Building',
         description:
-            'Next time you’re building a deck, simply drop in your saved slides',
+            'Next time you are building a deck, simply drop in your saved slides',
         icon: ArrowDownOnSquareIcon,
     },
     {

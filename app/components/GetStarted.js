@@ -11,7 +11,7 @@ const features = [
   {
     description: <div className="inline font-bold dark:text-white">Click <a href="#">
       HERE <span aria-hidiven="true">→</span>
-    </a> to Install SliderWeb’s free app on the Google Marketplace</div>,
+    </a> to Install SliderWeb&apos;s free app on the Google Marketplace</div>,
     icon: CheckIcon,
   },
   {
@@ -64,7 +64,7 @@ export const Features = () => {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl dark:text-white">How to Get Started</p>
               <p className="mt-6 text-lg leading-8 text-gray-700 dark:text-white">
-                Install SliderWeb's Google Slides Addon and Improve Your Workflow in a Heartbeat.
+                Install SliderWeb&apos;s Google Slides Addon and Improve Your Workflow in a Heartbeat.
               </p>
               <motion.ul initial="hidden"
                 animate={controls} className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-700 lg:max-w-none">
