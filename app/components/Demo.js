@@ -4,26 +4,26 @@ const features = [
     {
         name: 'Instant Setup',
         description:
-            'Install SliderWeb free app on the Google Marketplace - it only takes 10 seconds',
+            "Install SliderWeb's free app on the Google Marketplace - it only takes 10 seconds",
         icon: ArrowDownIcon,
     },
     {
-        name: 'Seamless Slide Saving',
+        name: 'Select Slides',
         description:
-            'Save the specific slides you will want to reuse, directly from within your Google Slides presentation',
+            "Select the specific slides you'll want to reuse, directly from within your Google Slides presentation",
         icon: BookmarkIcon,
     },
     {
-        name: 'Effortless Deck Building',
+        name: 'Organize and Save Slides',
         description:
-            'Next time you are building a deck, simply drop in your saved slides',
-        icon: ArrowDownOnSquareIcon,
+            'Add the selected slides to a new or existing folder (i.e. Case Study Slides, Proposal Slides, etc)',
+        icon: Squares2X2Icon,
     },
     {
-        name: 'Organized Slide Categorization',
+        name: 'Drop Slides into Another Deck',
         description:
-            'You can even categorize slides via folders to make things easy! (i.e. Proposal Slides, Case Study Slides, etc)',
-        icon: Squares2X2Icon,
+            'When building another deck, simply select the slides or folders to drop in',
+        icon: ArrowDownOnSquareIcon,
     },
 ]
 
@@ -34,9 +34,6 @@ export const Demo = () => {
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight dark:text-white text-gray-900 sm:text-5xl">
                         How it works
-                    </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-700 dark:text-white">
-                        Quickly Install, Save, and Reuse Your Slides for Effortless Presentation Creation and Organization
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

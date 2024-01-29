@@ -10,7 +10,7 @@ import { useEffect, useRef } from "react";
 const features = [
   {
     description: <div className="inline font-bold dark:text-white">Click <a href="#">
-      HERE <span aria-hidiven="true">→</span>
+      HERE
     </a> to Install SliderWeb&apos;s free app on the Google Marketplace</div>,
     icon: CheckIcon,
   },
