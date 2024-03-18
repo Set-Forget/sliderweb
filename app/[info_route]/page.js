@@ -14,7 +14,7 @@ export default function InfoPage({ params }) {
         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mt-6">
           Privacy Policy
         </h1>
-        <p className="leading-8 dark:text-gray-300 mt-6 text-sm">{data.privacypolicy.content}</p>
+        <a href="https://developers.google.com/terms/api-services-user-data-policy" className="leading-8 text-blue-600 mt-6 text-sm">https://developers.google.com/terms/api-services-user-data-policy</a>
       </>
     );
   } else if (route.info_route === "termsandconditions") {
